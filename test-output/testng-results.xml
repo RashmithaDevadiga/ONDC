@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T14:03:48 IST" name="Default suite" finished-at="2024-07-18T14:04:30 IST" duration-ms="41920">
+  <suite started-at="2024-07-29T11:16:41 IST" name="Default suite" finished-at="2024-07-29T11:17:28 IST" duration-ms="47710">
     <groups>
     </groups>
-    <test started-at="2024-07-18T14:03:48 IST" name="Default test" finished-at="2024-07-18T14:04:30 IST" duration-ms="41920">
-      <class name="testcases.ONDC_Portal">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ONDC_Portal@533bda92]" started-at="2024-07-18T14:03:48 IST" name="setUp" finished-at="2024-07-18T14:03:54 IST" duration-ms="5447" status="PASS">
+    <test started-at="2024-07-29T11:16:41 IST" name="Default test" finished-at="2024-07-29T11:17:28 IST" duration-ms="47710">
+      <class name="testcases.ONDC_portal_Flow11">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ONDC_portal_Flow11@533bda92]" started-at="2024-07-29T11:16:41 IST" name="setUp" finished-at="2024-07-29T11:16:44 IST" duration-ms="3937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testcases.ONDC_Portal@533bda92]" started-at="2024-07-18T14:03:54 IST" name="setUpClass" finished-at="2024-07-18T14:03:54 IST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testcases.ONDC_portal_Flow11@533bda92]" started-at="2024-07-29T11:16:45 IST" name="setUpClass" finished-at="2024-07-29T11:16:45 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.ONDC_Portal@533bda92]" started-at="2024-07-18T14:03:54 IST" name="startTest" finished-at="2024-07-18T14:03:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.ONDC_portal_Flow11@533bda92]" started-at="2024-07-29T11:16:45 IST" name="startTest" finished-at="2024-07-29T11:16:45 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="Login()[pri:0, instance:testcases.ONDC_Portal@533bda92]" started-at="2024-07-18T14:03:54 IST" name="Login" finished-at="2024-07-18T14:04:29 IST" duration-ms="35123" status="PASS">
+        <test-method signature="Info()[pri:0, instance:testcases.ONDC_portal_Flow11@533bda92]" started-at="2024-07-29T11:16:45 IST" name="Info" finished-at="2024-07-29T11:17:28 IST" duration-ms="43106" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testcases.ONDC_Portal@533bda92]" started-at="2024-07-18T14:04:29 IST" name="endTest" finished-at="2024-07-18T14:04:29 IST" duration-ms="253" status="PASS">
+        </test-method> <!-- Info -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:testcases.ONDC_portal_Flow11@533bda92]" started-at="2024-07-29T11:17:28 IST" name="endTest" finished-at="2024-07-29T11:17:28 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ONDC_Portal@533bda92]" started-at="2024-07-18T14:04:29 IST" name="tearDown" finished-at="2024-07-18T14:04:30 IST" duration-ms="854" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ONDC_portal_Flow11@533bda92]" started-at="2024-07-29T11:17:28 IST" name="tearDown" finished-at="2024-07-29T11:17:28 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.ONDC_Portal -->
+      </class> <!-- testcases.ONDC_portal_Flow11 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

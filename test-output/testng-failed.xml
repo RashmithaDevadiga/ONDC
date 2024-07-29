@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.ONDC_Portal">
+      <class name="testcases.ONDC_portal_Flow8">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="IGM"/>
           <include name="setUpClass"/>
           <include name="endTest"/>
-          <include name="Login"/>
           <include name="startTest"/>
         </methods>
-      </class> <!-- testcases.ONDC_Portal -->
+      </class> <!-- testcases.ONDC_portal_Flow8 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

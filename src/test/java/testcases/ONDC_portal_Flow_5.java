@@ -14,7 +14,7 @@ import base.BaseTest;
 import utilities.SeleniumUtils;
 
 
-public class ONDC_Portal  extends BaseTest {
+public class ONDC_portal_Flow_5  extends BaseTest {
     private static ExtentTest test;
     @BeforeClass
     public void setUpClass() throws IOException {
@@ -22,9 +22,9 @@ public class ONDC_Portal  extends BaseTest {
     }
 
     @Test
-    public void Login() throws InterruptedException, IOException {
+    public void BuyerInitiated_ReturnFO() throws InterruptedException, IOException {
        
-        setUp();
+       // setUp(); Not needed 
 
         SeleniumUtils.setupDriver();
 
@@ -65,7 +65,8 @@ public class ONDC_Portal  extends BaseTest {
        
        SeleniumUtils.clickElement(loc.getProperty("proceed"), "proceed");
        Thread.sleep(1000);
-       SeleniumUtils.clickElement(loc.getProperty("Flow1"), "Flow1");
+       SeleniumUtils.clickElement(loc.getProperty("Flow_5"), "Flow_5");
+       Thread.sleep(10000);
 
 
 
